@@ -24,7 +24,7 @@ pipeline{
                     
                     ssh ubuntu@ip-172-31-57-103:~/apache-tomcat-9.0.73/bin/shutdown.sh
                     
-                    ssh ubuntu@ip-172-31-57-103:~/apache-tomcat-9.0.73/bin/./startup.sh
+                    ssh ubuntu@ip-172-31-57-103:~/apache-tomcat-9.0.73/bin/startup.sh
                 
                 """
             }
